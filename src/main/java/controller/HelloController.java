@@ -18,4 +18,12 @@ public class HelloController {
     public String abc() {
 		return "123";
 	}
+	@RequestMapping("jyl")
+	@ResponseBody
+	public String aaa(){
+		
+		return "jyltest";
+		
+		
+	}
 }
